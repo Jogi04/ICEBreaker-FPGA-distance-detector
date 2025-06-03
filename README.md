@@ -6,4 +6,4 @@ Depending on how far away the object is, a LED is lit up / a tone is generated. 
 
 ## Verilog Code Structure
 
-<img src="pictures/modules.drawio.png" width="400">
+<img src="pictures/modules.png" width="400">
