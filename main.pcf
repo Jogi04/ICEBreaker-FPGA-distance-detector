@@ -1,0 +1,21 @@
+# 12 MHz clock input on ICEBreaker
+set_io --warn-no-port clk 35                #input
+
+
+# led
+set_io --warn-no-port led 26                #output
+
+# ------------ Button ---------------------------------------------------------
+set_io --warn-no-port reset_ni 10           #input
+
+
+# ------------ PMOD A ---------------------------------------------------------
+set_io --warn-no-port i2s_dac_mclk_o	4	#output
+set_io --warn-no-port i2s_dac_sclk_o	47	#output
+set_io --warn-no-port i2s_dac_lrclk_o	2	#output
+set_io --warn-no-port i2s_dac_sdin_o	45	#output
+
+
+
+# ------------ PMOD B ---------------------------------------------------------
+set_io --warn-no-port pwm_i 31             #input
